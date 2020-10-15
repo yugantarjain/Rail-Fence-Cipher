@@ -69,5 +69,6 @@ func decipher(_ cipher: String, key: Int) -> String {
     return str
 }
 
+// Usage
 let cipherText = cipher("defend the east wall of the castle", key: 4)
 decipher(cipherText, key: 4)
